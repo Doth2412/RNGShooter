@@ -1,0 +1,26 @@
+{
+
+"Instructions Readme": "1) Open Chrome or Edge, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"processInfo": {
+    
+},
+
+"traceEvents":[
+{ "pid": 24344, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "Unity" } },
+{ "pid": 24344, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-100" } },
+{ "pid": 24344, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 24344, "tid": 1, "ts": 1704477605957022, "dur": 18918199, "ph": "X", "name": "Build player", "args": {} },
+{ "pid": 24344, "tid": 1, "ts": 1704477605959932, "dur": 111625, "ph": "X", "name": "Preprocess Player", "args": {} },
+{ "pid": 24344, "tid": 1, "ts": 1704477606109792, "dur": 445827, "ph": "X", "name": "Prepare For Build", "args": {} },
+{ "pid": 24344, "tid": 1, "ts": 1704477606555657, "dur": 18224551, "ph": "X", "name": "ProducePlayerScriptAssemblies", "args": {} },
+{ "pid": 24344, "tid": 1, "ts": 1704477607523119, "dur": 17256229, "ph": "X", "name": "Prebuild Cleanup and Recompile", "args": {} },
+{ "pid": 24344, "tid": 1, "ts": 1704477607531055, "dur": 17248290, "ph": "X", "name": "Compile scripts", "args": {} },
+{ "pid": 24344, "tid": 1, "ts": 1704477624878463, "dur": 1277, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
+{ "pid": 24344, "tid": 1, "ts": 1704477624886483, "dur": 1872, "ph": "X", "name": "", "args": {} },
+{ "pid": 24344, "tid": 1, "ts": 1704477624888720, "dur": 2146, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "buildreport.json_1.traceevents"} },
+{ "pid": 24344, "tid": 1, "ts": 1704477624888720, "dur": 2259, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "buildreport.json_0.traceevents"} },
+{ "pid": 24344, "tid": 1, "ts": 1704477624885444, "dur": 6576, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{}
+
+]
+}
